@@ -1,0 +1,7 @@
+{
+    "name": "vlad0s40/work-test-project",
+    "type": "project",
+    "require": {
+        "symfony/console": "^5.0"
+    }
+}

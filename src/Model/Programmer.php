@@ -4,7 +4,7 @@
 namespace Project\Model;
 
 
-use Model\Action\TestingAndSpeak;
+use Project\Model\Action\TestingAndSpeak;
 use Project\Model\Action\Base\Coding;
 
 /**
@@ -14,7 +14,7 @@ use Project\Model\Action\Base\Coding;
  */
 class Programmer implements Coding, TestingAndSpeak
 {
-
+    use BaseWorker;
     public function code()
     {
         // TODO: Implement code() method.

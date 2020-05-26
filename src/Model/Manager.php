@@ -13,7 +13,7 @@ use Project\Model\Action\Base\SetGoals;
  */
 class Manager implements SetGoals
 {
-
+    use BaseWorker;
     public function setGoal()
     {
         // TODO: Implement setGoal() method.

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Model\Action;
+namespace Project\Model\Action;
 
 
 use Project\Model\Action\Base\SpeakToManager;

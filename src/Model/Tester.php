@@ -4,7 +4,7 @@
 namespace Project\Model;
 
 
-use Model\Action\TestingAndSpeak;
+use Project\Model\Action\TestingAndSpeak;
 use Project\Model\Action\Base\SetGoals;
 
 /**
@@ -14,10 +14,10 @@ use Project\Model\Action\Base\SetGoals;
  */
 class Tester implements TestingAndSpeak, SetGoals
 {
-
+    use BaseWorker;
     public function speak()
     {
-        // TODO: Implement speak() method.
+        $this->actions[] = 'speak';
     }
 
     public function test()

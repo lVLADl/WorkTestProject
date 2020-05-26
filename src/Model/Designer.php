@@ -14,7 +14,7 @@ use Project\Model\Action\Base\SpeakToManager;
  */
 class Designer implements SpeakToManager, Painting
 {
-
+    use BaseWorker;
     public function paint()
     {
         // TODO: Implement paint() method.
